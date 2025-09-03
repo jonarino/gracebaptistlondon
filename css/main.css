@@ -80,6 +80,7 @@ a:hover {
 .main-header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .navbar {
   background-color: #fff;
@@ -242,7 +243,7 @@ a:hover {
   margin-top: 6.25rem;
 }
 .home-section--smaller {
-  margin-top: 4.25rem;
+  margin-top: 2.25rem;
 }
 .home-section--centered {
   text-align: center;
@@ -259,9 +260,14 @@ a:hover {
 }
 .home-section--welcome-students a {
   text-decoration: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: min(100%, max-content);
+  margin: 0 auto;
   background-color: rgba(117, 149, 214, 0.1);
   border-radius: 30px 30px 10px 30px;
-  padding: 12px 20px 24px 20px;
+  padding: 12px 20px 12px 12px;
 }
 .home-section--welcome-students a:hover {
   text-decoration: underline;
