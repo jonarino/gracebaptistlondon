@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Song Usage Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Spectral:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-inner">
+          <div class="eyebrow">
+            <span class="eyebrow-text">Sunday Morning Service</span>
+            <span class="eyebrow-sep">·</span>
+            <span class="eyebrow-range">Song Usage Analysis</span>
+          </div>
+          <h1 class="main-title">
+            Song Usage <span class="gold-accent">Dashboard</span>
+          </h1>
+          <div class="subtitle">
+            Grace Baptist Church — Interactive analysis of worship song
+            selections
+          </div>
+        </div>
+      </header>
+
+      <!-- Tabs -->
+      <div class="tabs-container">
+        <div class="tabs-inner">
+          <button class="tab-btn active" data-tab="overview">OVERVIEW</button>
+          <button class="tab-btn" data-tab="frequency">FREQUENCY</button>
+          <button class="tab-btn" data-tab="spacing">SPACING</button>
+          <button class="tab-btn" data-tab="hymnal">HYMNAL</button>
+          <button class="tab-btn" data-tab="directory">DIRECTORY</button>
+          <button class="tab-btn" data-tab="services">SERVICES</button>
+        </div>
+      </div>
+
+      <main class="content">
+        <!-- OVERVIEW TAB -->
+        <div class="tab-content active" id="overview-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+
+        <!-- FREQUENCY TAB -->
+        <div class="tab-content" id="frequency-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+
+        <!-- SPACING TAB -->
+        <div class="tab-content" id="spacing-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+
+        <!-- HYMNAL TAB -->
+        <div class="tab-content" id="hymnal-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+
+        <!-- DIRECTORY TAB -->
+        <div class="tab-content" id="directory-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+
+        <!-- SERVICES TAB -->
+        <div class="tab-content" id="services-tab">
+          <!-- Content rendered by JavaScript -->
+        </div>
+      </main>
+    </div>
+
+    <!-- Song Detail Modal -->
+    <div id="song-modal" class="modal hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <!-- Content rendered by JavaScript -->
+      </div>
+    </div>
+
+    <script src="js/dashboard-data.js" defer></script>
+  </body>
+</html>
