@@ -6,7 +6,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/woff2/Metropolis-Regular.woff2") format("woff2"),
+  src:
+    url("/fonts/woff2/Metropolis-Regular.woff2") format("woff2"),
     url("/fonts/woff/Metropolis-Regular.woff") format("woff"),
     url("/fonts/eot/Metropolis-Regular.eot") format("embedded-opentype");
 }
@@ -15,7 +16,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/woff2/Metropolis-Medium.woff2") format("woff2"),
+  src:
+    url("/fonts/woff2/Metropolis-Medium.woff2") format("woff2"),
     url("/fonts/woff/Metropolis-Medium.woff") format("woff"),
     url("/fonts/eot/Metropolis-Medium.eot") format("embedded-opentype");
 }
@@ -25,7 +27,8 @@
   font-style: bold;
   font-weight: 600;
   font-display: swap;
-  src: url("/fonts/woff2/Metropolis-Bold.woff2") format("woff2"),
+  src:
+    url("/fonts/woff2/Metropolis-Bold.woff2") format("woff2"),
     url("/fonts/woff/Metropolis-Bold.woff") format("woff"),
     url("/fonts/eot/Metropolis-Bold.eot") format("embedded-opentype");
 }
@@ -462,4 +465,18 @@ address {
 }
 .testimonial__title {
   color: #676f79;
+}
+
+/*
+  * Current series styles
+  */
+.sermon-quote {
+  border-left: 4px solid #2b3442;
+  background-color: rgba(43, 52, 66, 0.05);
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+.sermon-quote p {
+  margin: 0;
 }
