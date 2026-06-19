@@ -199,7 +199,6 @@ function setEyebrowRange() {
 
   const minDate = new Date(Math.min(...dates.map((d) => new Date(d))));
   const maxDate = new Date(Math.max(...dates.map((d) => new Date(d))));
-  console.log(dates, Math.min(...dates.map((d) => new Date(d))), maxDate);
   const eyebrow = document.querySelector(".eyebrow-range");
   if (eyebrow) {
     eyebrow.innerHTML = `${minDate.getFullYear()}—${maxDate.getFullYear()}`;
@@ -944,13 +943,18 @@ function openSongModal(title) {
           )
           .join("")}
       </div>
-      <div class="modal-same-key">
-        <div class="modal-same-key-title">Songs in Key of ${song.key}</div>
-        ${directory
-          .filter((s) => s.key === song.key && s.title !== song.title)
-          .map((s) => `<div class="modal-same-key-song">${s.title}</div>`)
-          .join("")}
-      </div>
+      ${
+        song.key
+          ? `
+        <div class="modal-same-key">
+          <div class="modal-same-key-title">Songs in Key of ${song.key}</div>
+          ${directory
+            .filter((s) => s.key === song.key && s.title !== song.title)
+            .map((s) => `<div class="modal-same-key-song">${s.title}</div>`)
+            .join("")}
+        </div>`
+          : ""
+      }
       </div>
     </div>
   `;
@@ -962,8 +966,10 @@ function openSongModal(title) {
 function getSongsByDate(date) {
   return occurrences
     .filter((occ) => occ["Date"] === date)
-    .map((occ) => occ["Song Title"])
-    .filter((title) => !!title);
+    .map((occ) => [
+      occ["Song Title"],
+      allSongs.find((s) => s["Song Title"] === occ["Song Title"])?.Key,
+    ]);
 }
 
 function openServiceModal(date) {
@@ -980,7 +986,10 @@ function openServiceModal(date) {
         <div class="modal-usages">
           <div class="modal-usages-title">Songs Used (${services.length})</div>
             ${getSongsByDate(date)
-              .map((title) => `<div class="modal-usage-date">${title}</div>`)
+              .map(
+                (song) =>
+                  `<div class="modal-usage-date">${song[0]} ${song[1] ? `(${song[1]})` : ""}</div>`,
+              )
               .join("")}
         </div>
       </div>
