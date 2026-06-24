@@ -934,9 +934,12 @@ function openSongModal(title) {
           <div class="modal-usage-date">
             <details>
               <summary>${date}</summary>
-              ${getSongsByDate(date)
-                .map((title) => `<div class="modal-usage-song">${title}</div>`)
-                .join("")}
+            ${getSongsByDate(date)
+              .map(
+                (song) =>
+                  `<div class="modal-usage-song">${song[0]} ${song[1] ? `(${song[1]})` : ""}</div>`,
+              )
+              .join("")}
             </details>
           </div>
         `,
