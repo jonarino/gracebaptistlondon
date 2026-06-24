@@ -953,6 +953,7 @@ function openSongModal(title) {
           <div class="modal-same-key-title">Songs in Key of ${song.key}</div>
           ${directory
             .filter((s) => s.key === song.key && s.title !== song.title)
+            .sort((a, b) => b.count - a.count)
             .map((s) => `<div class="modal-same-key-song">${s.title}</div>`)
             .join("")}
         </div>`
