@@ -667,7 +667,17 @@ function renderHymnalChart(years, data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function (context) {
+              const value = context.parsed.y;
+              return `Hymnal Usage: ${value}%`;
+            },
+          },
+        },
+      },
       scales: {
         y: {
           beginAtZero: true,

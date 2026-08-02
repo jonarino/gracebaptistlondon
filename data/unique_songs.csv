@@ -4,11 +4,11 @@ Song Title,Hymnal Number,Majesty Hymns,Key
 "10,000 Reasons",,No,G
 "My Country, Tis of Thee",571,No,
 A Child of the King,352,No,Eb
-A Christian's Daily Prayer,,No,
+A Christian's Daily Prayer,,No,A
 A Hymn for the Wilderness,,No,
 A Mighty Fortress is Our God,26,No,C
 A New Name in Glory,345,Yes,Bb
-A Shelter in the Time of Storm,353,No,
+A Shelter in the Time of Storm,353,No,F
 A Triune Prayer,,No,
 Abide With Me,419,No,Eb
 Adore,,No,
@@ -20,9 +20,9 @@ All Hail King Jesus,,No,F
 All Hail the Glorious Christ,,No,
 All Hail the Lamb,,No,G
 All Hail the Power of Jesus' Name,97,No,G
-All I Have is Christ,,No,
+All I Have is Christ,,No,D
 All People That on Earth Do Dwell,20,No,
-All Praise to Him,,No,
+All Praise to Him,,No,Bb
 "All Praise to You, Eternal Lord",,No,
 All That Thrills my Soul,526,No,Bb
 All We Need,,No,
@@ -59,7 +59,7 @@ Before Our Father's Throne,,No,
 Before the Cross,,No,
 Before the Skies,,No,
 Before the Starry Universe,,No,
-Before the Throne of God Above,,No,
+Before the Throne of God Above,,No,D
 Behold Our God,,No,C
 "Behold, What Manner of Love",,No,Eb
 Higher Ground,399,No,
@@ -78,7 +78,7 @@ Whiter Than Snow,436,No,
 "Change my Heart, O God",,No,Bb
 "O, How I Love Jesus",529,No,G
 Christ Arose,216,No,
-Christ Crucified,,No,
+Christ Crucified,,No,C
 Christ Exalted is Our Song,,No,
 "Christ Jesus, thy Beloved Son",,No,
 Christ Receiveth Sinful Men,210,No,D
@@ -86,7 +86,7 @@ Christ Will be my Hideaway,,No,
 Christ is Coming! Lift Your Eyes!,,No,
 "Christ is Risen, He's Risen Indeed",,No,
 Christ the Lord is Risen Today,217,No,
-"Christ, the Sure and Steady Anchor",,No,
+"Christ, the Sure and Steady Anchor",,No,C
 Clap Your Hands,,No,
 Cleanse Me,438,No,F
 Cling to Christ,,No,
@@ -141,9 +141,9 @@ Forgiven,,No,
 Freedom Hymn,,No,
 "Freely, Freely",447,No,Eb
 Fruitful in You,,No,Ab
-Give Me Jesus,443,No,Bb
+Give Me Jesus,443,No,F
 Give Thanks,,No,
-Give to Our God Immortal Praise,,No,
+Give to Our God Immortal Praise,,No,D
 Gladly Would I Leave Behind Me,,No,
 Glorify Your Name,633,Yes,Bb
 Glorify Thy Name,29,No,Bb
@@ -243,7 +243,7 @@ I Have Decided to Follow Jesus,376,No,C
 I Know Whom I Have Believed,409,No,D
 "I Love You, Lord",80,No,
 "I Love thy Kingdom, Lord",280,No,F
-I Love to Tell the Story,297,No,
+I Love to Tell the Story,297,No,G
 I Must Tell Jesus,430,No,
 I Need Jesus,235,No,Eb
 I Need Thee Every Hour,428,No,G
@@ -396,7 +396,7 @@ O Bless the God of Israel,,No,
 "O Come, O Come, Emmanuel",123,No,D
 O Glorious Day,,No,C
 "O God, Our Help in Ages Past",52,No,
-O Great God,,No,
+O Great God,,No,C
 O Happy Day,532,No,
 O Holy Night,148,No,C
 O How He Loves You and Me,513,No,Ab
@@ -412,10 +412,10 @@ O for a Thousand Tongues to Sing,76,No,Ab
 O to be Like Thee,,No,
 "O, Come, Let Us Adore Him",,No,
 "O, How I Love Jesus",529,No,
-"O, Love That Will Not Let Me Go",374,No,
-"O, for a Thousand Tongues to Sing",76,No,
+"O, Love That Will Not Let Me Go",374,No,G
+"O, for a Thousand Tongues to Sing",76,No,Ab
 Obedience,,No,
-Oh How He Loves You and Me,513,No,
+Oh How He Loves You and Me,513,No,Ab
 "Oh the Deep, Deep Love",,No,Db
 "Oh, What an Amazing Mystery",,No,
 On That Day,,No,
@@ -445,7 +445,7 @@ Praise Him! Praise Him!,106,No,G
 "Praise the Lord! Ye Heavens, Adore Him",9,No,Eb
 Praise the Savior,75,No,
 "Praise the Savior, Ye Who Know Him",75,No,
-"Praise to the Lord, the Almighty",,No,
+"Praise to the Lord, the Almighty",,No,G
 "Praise, my Soul, the King of Heaven",,No,
 Precious Children,,No,
 Present Lord,,No,
@@ -453,7 +453,7 @@ Raised From Death to Love and Living,,No,
 Reconciled in Christ,,No,G
 Redeemed,521,No,Ab
 "Redeemed, How I Love to Proclaim It",521,No,
-Reformation Hymn,,No,
+Reformation Hymn,,No,D
 Rejoice in His Coming,283,No,
 Rejoice in the Lord,,No,
 Rejoice in the Lord Always,,No,
@@ -523,7 +523,7 @@ The Fullness of God's Glory,,No,
 The Glories of Christ,,No,
 The Glorified Christ,,No,
 The God of the Impossible,,No,Bb
-The Gospel Song,,No,
+The Gospel Song,,No,Bb
 The Gospel Was Promised,,No,
 The Haven of Rest,,No,
 The Heart of Christ,,No,
@@ -535,7 +535,7 @@ The Longer I Serve Him,518,No,Ab
 The Look,,No,
 The Lord Almighty Reigns,,No,
 The Lord Has Come,,No,
-The Love of God,67,No,
+The Love of God,67,No,D
 The Mercies of God,97,No,Ab
 The Old Rugged Cross,186,No,
 The Power of the Cross,,No,Bb
@@ -557,6 +557,7 @@ There is One Gospel,,No,
 There is Power in the Blood,191,No,Bb
 There is a Fountain,196,No,Bb
 There is a Redeemer,206,No,Eb
+There Shall Be Showers of Blessing,289,No,Bb
 There's a Wideness in God's Mercy,68,No,Bb
 There's Just Something About That Name,102,No,Eb
 There's Room at the Cross for You,331,No,
